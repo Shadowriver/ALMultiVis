@@ -20,4 +20,4 @@ Full documentation comming soon! (Sorry, didn't make it in time as i has lot of 
 
 Shader includes example materials same you seen in vket6 booth, so you can learn from them ow to use the shader.
 
-You can download package version of shader in Vket Store page: XXX
+You can download package version of shader in Vket Store page: https://www.v-market.work/ec/items/5731/detail/
