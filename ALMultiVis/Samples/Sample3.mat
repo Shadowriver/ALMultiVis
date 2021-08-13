@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sample3
+  m_Shader: {fileID: 4800000, guid: 315286ae7fac78d4da7cbc7720e2b32b, type: 3}
+  m_ShaderKeywords: _A_ABS_ON _A_ENABLE_ON _A_INTERPOLATION_ON _B_ENABLE_ON _B_INTERPOLATION_ON
+    _C_INTERPOLATION_ON _D_INTERPOLATION_ON _FALLBACKDISAPPER_ON _RTNEGATIVE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8c84bc29d286262449102c871b1c58fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTexture:
+        m_Texture: {fileID: 8400000, guid: 17ead5dccd3a17540acf06fdd807ef7b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SelectMaskTex:
+        m_Texture: {fileID: 2800000, guid: 1afa4425055afec41a5de2a74ff332f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexC:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexD:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexE:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexUV:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _A_Abs: 1
+    - _A_Blend: 0
+    - _A_DisplayMode: 5
+    - _A_EffectColorAUV: 0
+    - _A_Enable: 1
+    - _A_EndRange: 1
+    - _A_InputData: 7
+    - _A_InputScale: 0.2
+    - _A_Interpolation: 1
+    - _A_LayerBlend: 0
+    - _A_LineColorSource: 2
+    - _A_OffColorSource: 3
+    - _A_OnColorSource: 0
+    - _A_StartRange: 0.795
+    - _A_UVBase: 1
+    - _A_UVDualside: 0
+    - _A_UVMirror: 0
+    - _A_UVOffsetX: -1.1
+    - _A_UVOffsetY: 0.29
+    - _A_UVRotation: 85.34
+    - _A_UVScaleX: 1
+    - _A_UVScaleY: 1
+    - _A_UVSource: 8
+    - _A_UVTransform: 0
+    - _B_Abs: 0
+    - _B_Blend: 0
+    - _B_DisplayMode: 4
+    - _B_EffectColorAUV: 0
+    - _B_Enable: 1
+    - _B_EndRange: 0.666
+    - _B_InputData: 4
+    - _B_InputScale: 0.5
+    - _B_Interpolation: 1
+    - _B_LayerBlend: 0
+    - _B_LineColorSource: 2
+    - _B_OffColorSource: 3
+    - _B_OnColorSource: 0
+    - _B_StartRange: 0.263
+    - _B_UVBase: 1
+    - _B_UVDualside: 0
+    - _B_UVOffsetX: -0.1
+    - _B_UVOffsetY: 0
+    - _B_UVRotation: 0
+    - _B_UVScaleX: 1.48
+    - _B_UVScaleY: 1
+    - _B_UVSource: 9
+    - _B_UVTransform: 2
+    - _C_Abs: 0
+    - _C_Blend: 0
+    - _C_DisplayMode: 4
+    - _C_EffectColorAUV: 0
+    - _C_Enable: 0
+    - _C_EndRange: 1
+    - _C_InputData: 0
+    - _C_InputScale: 1
+    - _C_Interpolation: 1
+    - _C_LayerBlend: 0
+    - _C_LineColorSource: 2
+    - _C_OffColorSource: 1
+    - _C_OnColorSource: 0
+    - _C_StartRange: 0
+    - _C_UVBase: 0
+    - _C_UVDualside: 0
+    - _C_UVOffsetX: 0
+    - _C_UVOffsetY: 0
+    - _C_UVRotation: 0
+    - _C_UVScaleX: 1
+    - _C_UVScaleY: 1
+    - _C_UVSource: 0
+    - _C_UVTransform: 0
+    - _D_Abs: 0
+    - _D_Blend: 0
+    - _D_DisplayMode: 1
+    - _D_EffectColorAUV: 0
+    - _D_Enable: 0
+    - _D_EndRange: 1
+    - _D_InputData: 0
+    - _D_InputScale: 1
+    - _D_Interpolation: 1
+    - _D_LayerBlend: 0
+    - _D_LineColorSource: 2
+    - _D_OffColorSource: 1
+    - _D_OnColorSource: 0
+    - _D_StartRange: 0
+    - _D_UVBase: 0
+    - _D_UVDualside: 0
+    - _D_UVOffsetX: 0
+    - _D_UVOffsetY: 0
+    - _D_UVRotation: 0
+    - _D_UVScaleX: 1
+    - _D_UVScaleY: 1
+    - _D_UVSource: 0
+    - _D_UVTransform: 1
+    - _FallbackDisapper: 1
+    - _MixingMode: 0
+    - _RTNegative: 1
+    - _RTScale: 2
+    - _SelectSource: 1
+    - _UseRenderTexture: 0
+    m_Colors:
+    - _A_ColorA: {r: 1, g: 0, b: 0.79670763, a: 1}
+    - _A_ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _A_ColorC: {r: 0, g: 0, b: 0, a: 1}
+    - _B_ColorA: {r: 0.9927005, g: 1, b: 0.3490566, a: 1}
+    - _B_ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _B_ColorC: {r: 0, g: 0, b: 0, a: 1}
+    - _C_ColorA: {r: 1, g: 1, b: 1, a: 1}
+    - _C_ColorB: {r: 1, g: 0, b: 0, a: 1}
+    - _C_ColorC: {r: 0, g: 0, b: 0, a: 1}
+    - _D_ColorA: {r: 0, g: 0, b: 0, a: 1}
+    - _D_ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _D_ColorC: {r: 0, g: 0, b: 0, a: 1}
