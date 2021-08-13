@@ -4,7 +4,7 @@ ALMultiVis is a 4 layer AudioLink visualization shader with one visualization pe
 The shader is not 100% complete. it missing things i wanted to add (and i will add in future!) as well got some in devlopment things that may not make sense it's there right now. So treat it as on devlopment shader. I also didnt have time to fully test it, it may have bugs, feel free to raport if you find any!
 
 # How to use it?
-Full documentation comming soon! (Sorry, didn't make it in time as i has lot of thing son head ;p), but here some basics:
+Full documentation comming soon! (Sorry, didn't make it in time as i has lot of things on head ;p), but here some basics:
 
 -As said in description it's 4 layer visualiser, they can be masked using "Select mask", masking is disabled by default (all visualisers will be show on top of eachother), but you can source mask texture (dedicated slot for that) or vertex color or gernerated UV areas (read below). Each visualizer is assign to color chanell of mask Red = Visualiser A, Green = Visualiser B, Blue = Visualiser C, 1 - Alpha = Visualiser D (it inverted in Alpha as 1 is default value, so more trasparent Texture is the more Visualiser D will be visiable, if you use texture remember to enable transparency
 
