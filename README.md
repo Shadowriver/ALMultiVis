@@ -12,9 +12,13 @@ Full documentation comming soon! (Sorry, didn't make it in time as i has lot of 
 
 -On color is color of visualiser while Off color of background
 
--UV and Colors are sampled from input sources. By default it is Color A and B setting and UV1, but you can use vertex color or texture (6 texture slots + background texture) as color input as well as color data transmitted by AudioLink (like Color corrd strip). You can also read all UVs from mesh as well as generated UVs form settings (settings below) add yes you can sample UV out of texture! (just dont compress it as it introduce distortions)
+-UV and Colors are sampled from input sources per each layer. By default it is Color A and B setting and UV1, but you can use vertex color or texture (6 texture slots + background texture) as color input as well as color data transmitted by AudioLink (like Color corrd strip). You can also read all UVs from mesh as well as generated UVs form settings (settings below) add yes you can sample UV out of texture! (just dont compress it as it introduce distortions)
 
 -UV transfromations in visualisers dont effect color UV, but you can enable to effect On color source (useful with color corrd strip)
+
+-"Input Data" is what type of data is sampled from AudioLink, and X axis of UV (wuth transfrom applied) decides which part of that data is sampled
+
+-"Display type" set how that data is visualised.
 
 -There 2 color lending options, Layer effects interaction with visualiser below it, Color effects blending Off with On color
 
